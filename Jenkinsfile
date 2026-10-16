@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'manjukolkar007/test-dev:latest'
+        DOCKER_IMAGE = 'vinutha43/app:latest'
         DEPLOY_FILE  = 'deploy.yaml'
         DOMAIN       = 'cicd-project.duckdns.org'
     }
